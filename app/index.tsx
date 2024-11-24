@@ -1,15 +1,14 @@
-import { Text, View } from "react-native";
+import { Text, SafeAreaView } from "react-native";
+import MorseTable from "./learn/MorseTable";
 
 export default function Index() {
   return (
-    <View
+    <SafeAreaView
       style={{
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    <MorseTable></MorseTable>      
+    </SafeAreaView>
   );
 }
