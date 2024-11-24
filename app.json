@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "learn-morse-app",
-    "slug": "learn-morse-app",
+    "slug": "learn-morse",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5063d589-0b4a-4a58-8ae2-79fe1d09fc3d"
+      }
+    },
+    "owner": "apundari"
   }
 }
